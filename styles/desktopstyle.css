@@ -1,5 +1,59 @@
 @media only screen and (min-width: 768px) {
   body {
+    width: 960px;
+    margin: 0px;
+  }
+
+  #a {
+    height: 100px;
     background-color: royalblue;
   }
+
+  #b {
+    float: left;
+    width: 200px;
+    height: 600px;
+    background-color: purple
+  }
+
+  #c, #d {
+    display: inline-block;
+    height: 200px;    
+    width: 380px;
+    background-color: palevioletred
+  }
+
+  #c {
+    background-color: goldenrod;
+    float: left;
+  }
+
+  #e, #f, #g, #h {
+    height: 250px;
+    width: 190px;
+    float: left;
+   }
+
+   #e {
+     background-color: aqua;
+   }
+
+   #f {
+    background-color: brown
+   }
+
+   #g {
+     background-color: green;
+   }
+
+   #h {
+     background-color: grey;
+   }
+
+   #i {
+     float: left;
+     width: 760px;
+     height: 150px;
+     background-color: deepskyblue;
+   }
 }
