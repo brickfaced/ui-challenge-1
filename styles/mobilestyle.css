@@ -1,5 +1,53 @@
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
   body {
-    background-color: antiquewhite;
+    width: 480px;
   }
+
+  #a {
+    height: 75px;
+    background-color: royalblue;
+  }
+
+  #b {
+    height: 150px;
+    background-color: purple
+  }
+
+  #c, #d {
+    height: 125px;    
+    background-color: palevioletred
+  }
+
+  #c {
+    background-color: goldenrod;
+  }
+
+  #e, #f, #g, #h {
+    height: 250px;
+    width: 240px;
+    float: left;
+   }
+
+   #e {
+     background-color: aqua;
+   }
+
+   #f {
+    background-color: brown
+   }
+
+   #g {
+     background-color: green;
+   }
+
+   #h {
+     background-color: grey;
+   }
+
+   #i {
+     width: 480px;
+     height: 80px;
+     background-color: deepskyblue;
+     float: left;
+   }
 }
